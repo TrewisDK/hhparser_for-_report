@@ -7,4 +7,6 @@ def analiz(file_alalize, serarch_word):
                 count_words +=1
         print(f"Нужное слово было найдено {count_words} раз.")
 
-analiz('Отчет.txt', 'Высшее образование')
+filename = input("Введите файл для анализа: ")
+search = input("Слово для анализа: ")
+analiz(filename, search)
